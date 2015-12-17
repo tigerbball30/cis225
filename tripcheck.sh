@@ -1,8 +1,8 @@
 #!/bin/bash
-#files.sh
+#tripcheck.sh
 
 if (( $# < 1 || $# > 1 )); then
-  echo "Usage: files.sh <name>"
+  echo "Usage: tripcheck.sh <name>"
   exit 1
 fi
 
