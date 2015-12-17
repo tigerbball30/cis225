@@ -11,6 +11,6 @@ if [ "$1" = "tripwire.txt" ]; then
   exit 0
 else
   sudo tripwire -m c > $HOME/$1
-  diff -y ~/$1 ~/tripwire.txt > ~/"$1.diff"
+  diff -y ~/$1 ~/tripwire.txt > ~/$1.diff
 fi
 exit 0
